@@ -52,7 +52,7 @@ public class ProgressPresenter extends Fragment {
             public void onClick(View view) {
                 if (contentText==null){
                     contentView.setText("Downloading...");
-                    new ProgressTask().execute("http://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?valcode=EUR&json");
+                    new ProgressTask().execute("http://steamcommunity.com/id/Hunfrit");
                 }
             }
         });
